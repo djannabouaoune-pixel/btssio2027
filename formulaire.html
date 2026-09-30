@@ -9,7 +9,7 @@
 <body bgcolor="C8D6B3">
 
 
-	<form action="#" method="post"></form>
+	<form action="#" method="post">
 
 <header>
 	<h1> Ajout d'un nouveau véhicule </h1> 
@@ -77,11 +77,13 @@
 <td><input type="number" id="prix_location" name="prix_location" min="0" step="0.01"></td></td>
 
 
-<tr><td><label for="caution"> Caution : </label></td>
-<td><label for="caution_oui"> Oui </label></td>
-<td><input type="radio" id="caution_oui" name="oui" value="oui"></td>
-<td><label for="caution_non"> Non </label></td>
-<td><input type="radio" id="caution_non" name="marie" value="non"></td></tr>
+<tr><td>
+	<label for="caution"> Caution : </label></td>
+<td><input type="radio" id="caution_oui" name="oui" value="oui">
+<label for="caution_oui"> Oui </label>
+<input type="radio" id="caution_non" name="marie" value="non">
+<label for="caution_non"> Non </label>
+<input type="radio" id="caution_non" name="marie" value="non"></td></tr>
 
 
 </table>
@@ -90,6 +92,8 @@
 <button type="submit"> Enregistrer </button> 
 <button type="reste"> Annuler </button> 
 
+
+</form>
 
 <footer> 
 <p>&copy; 2026 Agence Méditerannée- Location de véhicule </p>
